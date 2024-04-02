@@ -1,0 +1,653 @@
+body{
+    background: linear-gradient(180deg, #EDD3BA 0%, rgba(237, 211, 186, 0.00) 100%), #FFF;
+    font-family: 'Public Sans Variable', sans-serif;
+    font-size: 16px;
+}
+
+
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.public-sans{
+    font-family: 'Public Sans Variable', sans-serif;
+}
+.border{
+    border: 10px solid black !important;
+    border-left-width: 25px !important;
+    border-right-width: 25px !important;
+}
+.button{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #F2BB35;
+    color: black;
+    border: none;   
+    border-radius: 0%;
+}
+.btn-primary{
+    --bs-btn-hover-bg: black;
+
+}
+.heading{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+.image{
+    width: 100%;
+}
+.small-image{
+    width: 100%;
+    margin: 50px;
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+/* NAVIGATION */
+
+
+
+.navbar{
+    width: 100% ;
+    height: 30vh;
+  
+ 
+}
+.nav-row{
+    width: 100%;
+    height: 100%;
+}
+.navigation-container{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation-item{
+    font-size: 40px;
+    color: black;
+    margin: 2%;
+}
+.shueys-column{
+    max-height: 20vh;
+}
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
+.slide-menu-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+height: 1000px;
+width: 50%;
+background-color: black !important;
+font-size: 40px;
+color: white;
+z-index: 99;
+}
+
+
+.slide-menu-closed{
+
+    transition: ease-out 600ms;
+    translate: 100%
+} 
+.slide-menu-open{
+    transition: ease-in 300ms;
+    translate: 0;
+
+}
+.slide-menu-logo{
+    align-self: center;
+    width: 70%;
+}
+.slide-navigation-item{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: white !important;
+}
+
+
+.shueys-logo{
+    width: 100%;
+    max-width: 50vw;
+    position: relative;
+    top: 12vh;
+}
+/* FOOTER */
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.footer-heading{
+    font-size: 32px;
+    text-align: left;
+}
+
+.footer-text-left{
+    padding-left: 8%;
+    font-size: 20px;
+    text-align: left;
+}
+.footer-text-right{
+    font-size: 20px;
+    text-align: right;
+}
+
+.facebook-logo-footer{
+    width: 4vw;
+}
+.footer-location-text{
+    text-align: left;
+}
+
+/* HOME */
+.welcome-image{
+width: 100%;
+}
+
+.specials-image{
+    width: 100%;
+}
+
+.review-carousel{
+    background-color: #161616A6;
+    opacity: 65%;
+    color: white;
+    width: 100%;
+    height: 336px;
+    font-size: 16pt;
+}
+.review-column{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+
+/* MENU */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.menu-banner{
+    width: 100%;
+    border: 5px solid black;
+    border-left-width: 0px ;
+    border-right-width: 0px ;
+}
+
+.menu-navigation{
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+}
+
+.menu-subtitle{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+   text-align: center;
+}
+.menu-subtitle-description{
+    font-family: 'Public Sans Variable', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.menu-item-title{
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.menu-item-description{
+    font-family: 'Public Sans Variable', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-carousel{
+
+}
+.carousel-image{
+    max-height: 70vh;
+    max-width: 100%;
+
+}
+.kids-menu-box{
+    border: 10px solid black;
+}
+.features-box{
+    border: 10px solid black;
+}
+.back-to-top{
+    font-size: 40px;
+    color: black !important;
+}
+
+/* CONTACT */
+.hours-container{
+
+}
+.small-location-image{
+    width: 50%;
+}
+/* ABOUT */
+.shueys-story{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+/* APPLY */
+.apply-container{
+    width: 100%;
+}
+.contact-column{
+    margin-left: 30%;
+    margin-right:30%;
+}
+.form{
+    background-color: #161616A6;
+width: 100%;
+}
+.form-input{
+    color: white;
+    border-radius: 0% !important;
+}
+.form-control{
+
+    border-radius: 0% !important;
+}
+.form-text{
+    color: white;
+    border-radius: 0% !important;
+}
+
+
+/* ABOUT */
+.border-vertical{
+    border: black 15px solid;
+    border-top-width: 35px;
+    border-bottom-width: 35px;
+}
+
+/* APPLY */
+/* .form{
+    max-width: 60%;
+    min-width: 60%; */
+
+
+/* MOBILE DEVICES */
+@media screen and (width <= 480px){
+    /* NAVIGATION */
+    
+     .shueys-logo{
+        position: relative;
+        top: 35px;
+    }
+
+
+
+    .sub-heading{
+        font-size: 36px;
+    }
+/* HOME */
+.review-carousel{
+    font-size: 12pt;
+
+}
+.review-text{
+    padding-top: 5% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+    padding-bottom: 0% !important;
+}
+
+    .menu-navigation{
+
+        font-size: 24px;
+    }
+
+    .subtitle-row{
+        text-align: center;
+  
+    }
+    .menu-subtitle{
+        font-size: 32px;
+          text-align: center;
+    }
+
+    .menu-subtitle-description{
+        font-size: 14px;
+        text-align: center;
+    }
+  
+    
+    .menu-item-title{
+        text-align: center;
+
+    }
+    
+    .menu-item-description{
+        text-align: center;
+
+    }
+
+    .menu-row{
+        text-align: center;
+    }
+    /* APPLY */
+.contact-column{
+    margin-right: 5%;
+    margin-left: 5%;
+   }
+
+}
+
+
+/* SMALL: TABLETS */
+@media screen and (481px <= width <= 575px){
+    .menu-subtitle{
+
+        text-align: center;
+
+    }
+    
+    .menu-subtitle-description{
+
+        text-align: center;
+    }
+    .menu-item-title{
+        text-align: center;
+
+    }
+    
+    .menu-item-description{
+        text-align: center;
+
+    }
+}
+@media screen and (576px <= width <= 768px){
+    .menu-subtitle{
+
+        text-align: left;
+
+    }
+    
+    .menu-subtitle-description{
+
+        text-align: left;
+    }
+    .menu-item-title{
+        text-align: left;
+
+    }
+    
+    .menu-item-description{
+        text-align: left;
+
+    }
+}
+
+@media screen and (481px <= width <= 768px){
+        /* NAVIGATION */
+        .navigaton{
+            display: none;
+        }
+     .shueys-logo{
+        position: relative;
+        top: 50px;
+    }
+    .facebook-logo-footer{
+        width: 10vw
+    }
+
+    .sub-heading{
+        font-size: 40px;
+    }
+/* HOME */
+.review-carousel{
+    font-size: 14pt;
+}
+    /* CONTACT */
+.location{
+    /* text-align: left !important;
+    margin-left: 100px; */
+}
+.phone-number{
+    text-align: left !important;
+}
+
+.menu-navigation{
+    font-size: 35px;
+}
+.menu-subtitle{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.menu-subtitle-description{
+    font-size: 16px;
+
+}
+.menu-item-title{
+
+    font-size: 36px;
+}
+
+.menu-item-description{
+
+    font-size: 16px;
+}
+/* APPLY */
+.contact-column{
+    margin-right: 20%;
+    margin-left: 20%;
+   }
+}
+
+/* MEDIUM: SMALL SCREENS & LAPTOPS */
+@media screen and (769px <= width <= 1024px){
+     /* NAVBAR */
+ .navbar{
+
+}
+.navigation-item{
+    font-size: 30px;
+}
+.shueys-logo{
+    position: relative;
+    top: 1vh;
+}
+.facebook-logo-footer{
+    width: 55px;
+}
+.heading{
+    font-size: 48px;
+}
+.sub-heading{
+    font-size: 40px;
+}
+/* HOME */
+.review-column{
+    margin-left: 15% !important;
+    margin-right: 25% !important;
+ }
+
+/* MENU */
+.menu-container{
+    padding:6%
+}
+.menu-banner{
+    width: 110%;
+}
+.menu-navigation{
+    font-size: 40px;
+}
+
+.appetizer-container{
+    margin-left: 100px;
+}
+.menu-subtitle{
+    font-size: 40px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 16px;
+    text-align: left;
+}
+
+.menu-item-title{
+    text-align: left;
+    font-size: 36px;
+}
+
+.menu-item-description{
+    text-align: left;
+    font-size: 16px;
+}
+/* APPLY */
+.contact-column{
+ margin-right: 25%;
+ margin-left: 25%;
+}
+
+}
+
+/* LARGE: LARGE SCREENS & DESKTOPS */
+@media screen and (1025px <= width <= 1200px){
+ /* NAVBAR */
+ .navbar{
+
+}
+/* HOME */
+.review-column{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+ }
+/* MENU */
+.menu-container{
+    padding: 10%;
+}
+
+.heading{
+    font-size: 64px;
+}
+.sub-heading{
+    font-size: 48px;
+}
+.menu-navigation{
+    font-size: 36px;
+}
+
+.appetizer-container{
+    margin-left: 100px;
+}
+.menu-subtitle{
+    font-size: 48px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 20px;
+    text-align: left;
+}
+.menu-item-title{
+    text-align: left;
+    font-size: 36px;
+}
+
+.menu-item-description{
+    text-align: left;
+    font-size: 16px;
+}
+/* APPLY */
+
+
+
+}
+
+/* EXTRA LARGE SCREENS */
+@media screen and (1201px <= width){
+
+
+    .nav-link{
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .footer-text{
+        font-size: 24px;
+    }
+.heading{
+    font-size: 64px;
+}
+/* HOME */
+.review-column{
+   margin-left: 25% !important;
+   margin-right: 25% !important;
+}
+    /* MENU */
+.menu-container{
+    padding: 10%;
+    padding-top: 6%;
+}
+
+.menu-navigation{
+    font-size: 40px;
+}
+.menu-subtitle{
+    font-size: 48px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 20px;
+    text-align: left;
+}
+.menu-item-row{
+    margin-left: 5%;
+}
+.menu-item-title{
+    text-align: left;
+    font-size: 40px;
+}
+
+.menu-item-description{
+    text-align: left;
+    font-size: 20px;
+}
+
+/* APPLY */
+/* .form{
+    max-width: 45%;
+    min-width: 45%;
+} */
+}
